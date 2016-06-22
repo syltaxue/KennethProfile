@@ -1,5 +1,5 @@
 {
-  "name": "canadabeautyplus",
+  "name": "KennethProfile",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
     "url": "git+https://github.com/syltaxue/canadaBeautyPlus.git"
   },
   "keywords": [
-    "canadaBeautyPlus"
+    "KennethProfile"
   ],
   "author": "Kenneth Song",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/syltaxue/canadaBeautyPlus/issues"
+    "url": "https://github.com/syltaxue/KennethProfile.git"
   },
-  "homepage": "https://github.com/syltaxue/canadaBeautyPlus#readme",
+  "homepage": "https://github.com/syltaxue/KennethProfile#readme",
   "dependencies": {
     "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",
