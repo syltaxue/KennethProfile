@@ -1,4 +1,4 @@
-# canadaBeautyPlus
+# Kenneth Personal Profile
 
 # Install  
 1: Install NPM and nodeJS together from the link below (recommend to use latest node version e.g. 5.x.x. npm 3.x.x will be installed once you installed node)
