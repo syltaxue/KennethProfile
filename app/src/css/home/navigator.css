@@ -1,0 +1,62 @@
+.navigator {
+	display: flex;
+	flex-direction: column;
+	top: 0 !important;
+	bottom: auto !important;
+}
+	.navigator-container {
+		background-color: blueviolet;
+		display: flex;
+	}
+		.navigator-container-content {
+			display: flex;
+		}
+	.navigator-picture {
+		height: 400px;
+		background-color: antiquewhite;
+		margin: 20px 50px;
+	}
+	.navigator-buttons {
+		display: flex;
+	}
+		.navigator-buttons-button {
+			width: 150px;
+		}
+
+			.navigator-buttons-button.active,.navigator-buttons-button:hover {
+				background-color: #49008E;
+			}
+		.navigator-buttons-text {
+			color: #FFF;
+		}
+
+.ui.menu {
+	background: initial;
+	border: initial;
+}
+
+.item {
+	justify-content: center;
+}
+
+.navigator {
+	margin: 0;
+	min-height: auto !important;
+	border-color: purple;
+}
+.nav-dropDown-subMenu .dropdown-menu {
+	right: -101%;
+	top: 0 !important;
+}
+
+.carousel-inner, {
+	height: 500px;
+}
+
+.carousel-inner .active, .navigator-picture {
+	height: 600px !important;
+}
+
+.navigator-picture {
+	margin: 0;
+}
