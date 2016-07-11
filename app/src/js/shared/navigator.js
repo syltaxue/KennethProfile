@@ -11,14 +11,11 @@ var Navigator = React.createClass({
 				<div className = "navigator-container">
 					<div className= "col-sm-1"></div>
 					<div className= "col-sm-10 navigator-container-content">
-						<div className= "col-sm-2">
-							<div className="navigator-logo left">Canada Beauty Plus LOGO</div>
-						</div>
-						<div className= "col-sm-8">
+						<div className= "col-sm-10">
 							<div className = "navigator-buttons">
 								<Nav justified bsStyle="tabs" activeKey={1} onSelect={this.handleSelect}>
-									<NavItem eventKey={1} href="/*">首页</NavItem>
-									<NavItem eventKey={2} title="Item">关于我们</NavItem>
+									<NavItem eventKey={1} href="/*">Home</NavItem>
+									<NavItem eventKey={2} title="Item">TimeLine</NavItem>
 									<NavDropdown eventKey={3} title="保健品" id="nav-dropdown">
 										<MenuItem eventKey="3.1">Action</MenuItem>
 										<MenuItem eventKey="3.2">Another action</MenuItem>

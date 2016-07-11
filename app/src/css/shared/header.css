@@ -1,26 +1,23 @@
 .header {
-	background-color: #ffffe5;
-	color: #66b3ff;
+	background-color: #1B1C1D;
+	color: rgba(255, 255, 255, 0.9);
 
 }
+	.header-buttons-text {
+		color: rgba(255, 255, 255, 0.9);
+	}
 	.header-container {
 		padding: 20px 0;
 		font-weight: bold;
 		font-size: 24px;
 	}
-		.header-siteName {
-			padding-top: 6px;
+		.header-container-context {
+			text-align: center;
 		}
+	.header-siteName {
+		padding-top: 6px;
+	}
 .prompt {
 	height: 20px;
 	width: 220px;
-}
-
-#header-Search-Icon {
-	background-color: white;
-	border-radius: 20px;
-	height: 30px;
-	width: 35px;
-	margin-left: -37px;
-	margin-top: 1px;
 }

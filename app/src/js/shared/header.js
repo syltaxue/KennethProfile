@@ -17,14 +17,10 @@ var Header = React.createClass({
 				<div className = "header-container">
 					<div className= "row">
 						<div className = "col-sm-1"></div>
-						<div className = "col-xs-4 col-sm-3">
-							<div className = "item" onClick={this._handleClick.bind(this, 'home')}>
-								<Link className="header-buttons-text" to={'/'}>Canada Beauty Plus</Link>
+						<div className = "col-sm-10">
+							<div className = "header-container-context" onClick={this._handleClick.bind(this, 'home')}>
+								<div className="header-buttons-text">Kenneth Personal Profile</div>
 							</div>
-						</div>
-						<div className = "col-xs-6 col-sm-5">
-						</div>
-						<div className = "col-xs-2 col-sm-2">
 						</div>
 						<div className= "col-sm-1"></div>
 					</div>
