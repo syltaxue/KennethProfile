@@ -5,7 +5,7 @@
 	bottom: auto !important;
 }
 	.navigator-container {
-		background-color: blueviolet;
+		background-color: #1B1C1D;
 		display: flex;
 	}
 		.navigator-container-content {
@@ -16,33 +16,15 @@
 		background-color: antiquewhite;
 		margin: 20px 50px;
 	}
-	.navigator-buttons {
-		display: flex;
-	}
-		.navigator-buttons-button {
-			width: 150px;
-		}
-
-			.navigator-buttons-button.active,.navigator-buttons-button:hover {
-				background-color: #49008E;
-			}
-		.navigator-buttons-text {
-			color: #FFF;
-		}
 
 .ui.menu {
 	background: initial;
 	border: initial;
 }
 
-.item {
-	justify-content: center;
-}
-
 .navigator {
 	margin: 0;
 	min-height: auto !important;
-	border-color: purple;
 }
 .nav-dropDown-subMenu .dropdown-menu {
 	right: -101%;

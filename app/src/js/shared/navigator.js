@@ -13,38 +13,14 @@ var Navigator = React.createClass({
 					<div className= "col-sm-10 navigator-container-content">
 						<div className= "col-sm-10">
 							<div className = "navigator-buttons">
-								<Nav justified bsStyle="tabs" activeKey={1} onSelect={this.handleSelect}>
-									<NavItem eventKey={1} href="/*">Home</NavItem>
-									<NavItem eventKey={2} title="Item">TimeLine</NavItem>
-									<NavDropdown eventKey={3} title="保健品" id="nav-dropdown">
-										<MenuItem eventKey="3.1">Action</MenuItem>
-										<MenuItem eventKey="3.2">Another action</MenuItem>
-										<MenuItem eventKey="3.3">Something else here</MenuItem>
-										<MenuItem divider />
-										<NavDropdown eventKey={3.4} title="Link" id="nav-dropright" noCaret={true} className="nav-dropDown-subMenu">
-											<MenuItem eventKey="3.4.1">Action</MenuItem>
-											<MenuItem eventKey="3.4.2">Another action</MenuItem>
-											<MenuItem eventKey="3.4.3">Something else here</MenuItem>
-											<MenuItem divider />
-											<MenuItem eventKey="3.4.4">Separated link</MenuItem>
-										</NavDropdown>
-									</NavDropdown>
-									<NavDropdown eventKey={4} title="母婴" id="nav-dropdown">
-										<MenuItem eventKey="4.1">Action</MenuItem>
-										<MenuItem eventKey="4.2">Another action</MenuItem>
-										<MenuItem eventKey="4.3">Something else here</MenuItem>
-										<MenuItem divider />
-										<MenuItem eventKey="4.4">Separated link</MenuItem>
-									</NavDropdown>
-									<NavDropdown eventKey={5} title="护肤品" id="nav-dropdown">
-										<MenuItem eventKey="5.1">Action</MenuItem>
-										<MenuItem eventKey="5.2">Another action</MenuItem>
-										<MenuItem eventKey="5.3">Something else here</MenuItem>
-										<MenuItem divider />
-										<MenuItem eventKey="5.4">Separated link</MenuItem>
-									</NavDropdown>
-									<NavItem eventKey={6} title="Item">联系我们</NavItem>
-								</Nav>
+								<div className="ui large secondary inverted pointing menu">
+									<a className="item active">Home</a>
+									<a className="item">Time Line</a>
+									<a className="item">Awards</a>
+									<div className="right menu">
+										<a className="ui item">Contact Information</a>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div className= "col-sm-2">
