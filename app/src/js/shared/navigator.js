@@ -16,7 +16,7 @@ var Navigator = React.createClass({
 								<div className="ui large secondary inverted pointing menu">
 									<a className="item active">Home</a>
 									<a className="item">Time Line</a>
-									<a className="item">Awards</a>
+									<a className="item">Rewards & Honors</a>
 									<div className="right menu">
 										<a className="ui item">Contact Information</a>
 									</div>
