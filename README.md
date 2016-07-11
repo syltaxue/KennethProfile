@@ -15,9 +15,4 @@ In SourceTree download the project from the link above
   b:   
   npm install   
   c:  
-  sudo npm install browserify -g   
-  d:   
-  sudo npm install gulp -g   
-  e:   
-  cd /KennethProfile/semantic/   
-  gulp build   
+  sudo npm install browserify -g     
