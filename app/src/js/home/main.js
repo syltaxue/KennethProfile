@@ -4,6 +4,7 @@ var Header = require('./../shared/header');
 var Navigator = require('./../shared/navigator');
 var Picture = require('./../shared/Picture');
 var Body = require('./body');
+var Description = require('./description');
 var Footer = require('./../shared/footer');
 var Home = React.createClass({
 	render: function() {
@@ -11,7 +12,7 @@ var Home = React.createClass({
 			<div id = "Home">
 				<Header/>
 				<Navigator/>
-				<Picture/>
+				<Description/>
 				<Body/>
 				<Footer/>
 			</div>
