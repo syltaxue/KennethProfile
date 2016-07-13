@@ -1,3 +1,10 @@
+
+#description-icon {
+	left: 10%;
+	top: 10%;
+	position: relative;
+}
+
 .description {
 	width: 100%;
 	height: 500px;
@@ -6,10 +13,4 @@
 	background-attachment:fixed;
 	margin: 0;
 	background-size:cover;
-}
-
-#description-icon {
-	left: 10%;
-	top: 10%;
-	position: relative;
 }

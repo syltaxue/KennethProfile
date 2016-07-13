@@ -11,23 +11,24 @@ var Picture = React.createClass({
 			<div className = "navigator-carousel">
 				<Carousel>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/slider1.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background3.jpg"/>
+						<img id="description-icon" src="./../app/src/image/react2.png" height="100px" width="100px"></img>
 						<Carousel.Caption>
 							<h3>图片示例1</h3>
 							<p>图片文字简介1，文字介绍1</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/slider2.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background.jpg"/>
 						<Carousel.Caption>
 							<h3>图片示例2</h3>
 							<p>图片文字简介2，文字介绍2</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/slider3.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/machineLearning2.jpg"/>
 						<Carousel.Caption>
-							<h3>图片示例3</h3>
+							<h3>Work Preference</h3>
 							<p>图片文字简介3，文字介绍3</p>
 						</Carousel.Caption>
 					</Carousel.Item>
