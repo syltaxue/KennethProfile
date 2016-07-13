@@ -7,3 +7,9 @@
 	margin: 0;
 	background-size:cover;
 }
+
+#description-icon {
+	left: 10%;
+	top: 10%;
+	position: relative;
+}
