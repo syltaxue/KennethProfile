@@ -19,7 +19,7 @@ var Picture = React.createClass({
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background2.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/ai.jpg"/>
 						<Carousel.Caption>
 							<h3>Work Perference: AI</h3>
 							<p>图片文字简介2，文字介绍2</p>
