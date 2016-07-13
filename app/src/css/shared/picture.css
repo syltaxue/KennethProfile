@@ -1,8 +1,8 @@
 
 #description-icon {
-	left: 10%;
-	top: 10%;
-	position: relative;
+	position: absolute;
+	top:14%;
+	left:46%;
 }
 
 .description {
