@@ -11,7 +11,7 @@ var Picture = React.createClass({
 			<div className = "navigator-carousel">
 				<Carousel>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background3.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background.jpg"/>
 						<img id="description-icon" src="./../app/src/image/react2.png" height="100px" width="100px"></img>
 						<Carousel.Caption>
 							<h3>图片示例1</h3>
@@ -19,7 +19,7 @@ var Picture = React.createClass({
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background2.jpg"/>
 						<Carousel.Caption>
 							<h3>图片示例2</h3>
 							<p>图片文字简介2，文字介绍2</p>
