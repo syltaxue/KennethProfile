@@ -5,8 +5,7 @@ var Carousel = require('react-bootstrap').Carousel;
 var Picture = React.createClass({
 	render: function() {
 		var width = window.innerWidth;
-		var height = 600;
-		console.log(width);
+		var height = 500;
 		return (
 			<div className = "navigator-carousel">
 				<Carousel>

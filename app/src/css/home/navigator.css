@@ -32,11 +32,11 @@
 }
 
 .carousel-inner, {
-	height: 500px;
+	height: 400px;
 }
 
 .carousel-inner .active, .navigator-picture {
-	height: 600px !important;
+	height: 500px !important;
 }
 
 .navigator-picture {
