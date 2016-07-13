@@ -14,22 +14,23 @@ var Picture = React.createClass({
 						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background.jpg"/>
 						<img id="description-icon" src="./../app/src/image/react2.png" height="100px" width="100px"></img>
 						<Carousel.Caption>
-							<h3>图片示例1</h3>
-							<p>图片文字简介1，文字介绍1</p>
+							<h3>Studying at UBC as a software enginnering student</h3>
+							<p>Graduating in May 2017</p>
+							<p>Will be available for a full-time position</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
 						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background2.jpg"/>
 						<Carousel.Caption>
-							<h3>图片示例2</h3>
+							<h3>Work Perference: AI</h3>
 							<p>图片文字简介2，文字介绍2</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/machineLearning2.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/machineLearning3.jpg"/>
 						<Carousel.Caption>
-							<h3>Work Preference</h3>
-							<p>图片文字简介3，文字介绍3</p>
+							<h3>Work Preference: Machine Learning</h3>
+							<p>I would like to get involved in</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 				</Carousel>
