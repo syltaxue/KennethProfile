@@ -16,5 +16,9 @@
 }
 
 .carousel-caption {
-	bottom: 20%;
+	bottom: 9%;
+}
+
+.text-header {
+	text-shadow: 0 0 5px #fff;
 }
