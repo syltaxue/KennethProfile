@@ -37,7 +37,10 @@ var Body = React.createClass({
 								<div className="page-header"><h1 id="timeline">Timeline</h1></div>
 								<ul className="timeline">
 									<li>
-										<div className="timeline-badge"><i className="glyphicon glyphicon-check"></i></div>
+										<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
+										<div className="timeline-date-right">
+											<div className="timeline-date-right-text"><a className="ui teal tag label">May 2015 - December 2015</a></div>
+										</div>
 										<div className="timeline-panel">
 											<div className="timeline-heading">
 												<h4 className="timeline-title">Mussum ipsum cacilds</h4>

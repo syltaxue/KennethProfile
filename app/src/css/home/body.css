@@ -49,6 +49,17 @@
 .timeline > li:after {
     clear: both;
 }
+.timeline > li > .timeline-date-right {
+	float: right;
+	width: 46%;
+}
+.timeline > li > .timeline-date-right > .timeline-date-right-text {
+	float: left;
+	margin-top: 28px;
+}
+.timeline > li > .timeline-date-right > .timeline-date-right-text > .label {
+	left: -13px;
+}
 .timeline > li > .timeline-panel {
     width: 46%;
     float: left;
