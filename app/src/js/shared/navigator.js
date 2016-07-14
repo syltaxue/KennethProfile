@@ -15,7 +15,7 @@ var Navigator = React.createClass({
 							<div className = "navigator-buttons">
 								<div className="ui large secondary inverted pointing menu">
 									<a className="item active">Home</a>
-									<a className="item">Time Line</a>
+									<a className="item" onClick={this._scrollToTimeLine}>Time Line</a>
 									<a className="item">Rewards & Honors</a>
 									<div className="right menu">
 										<a className="ui item">Contact Information</a>
@@ -31,10 +31,8 @@ var Navigator = React.createClass({
 			</div>
 		);
 	},
-
-	handleSelect: function(eventKey) {
-		event.preventDefault();
-		console.log("selected", eventKey);
+	_scrollToTimeLine: function() {
+		window.scrollTo(0, $("#timeline").offset().top -50);
 	}
 });
 
