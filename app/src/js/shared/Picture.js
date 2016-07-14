@@ -20,7 +20,7 @@ var Picture = React.createClass({
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/ai2.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/ai.jpg"/>
 						<Carousel.Caption>
 							<h3 className="text-header">Work Perference: AI</h3>
 							<p>I beleive, in the future, tons of smart devices will make our life easier</p>
@@ -30,7 +30,7 @@ var Picture = React.createClass({
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/machineLearning1.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/machineLearning.jpg"/>
 						<Carousel.Caption>
 							<h3 className="text-header">Work Preference: Machine Learning</h3>
 							<p>I believe, in the future, most of the messages people receive will be personalized</p>
