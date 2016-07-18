@@ -40,14 +40,32 @@ var Body = React.createClass({
 										<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
 										<div className="timeline-date-right">
 											<div className="timeline-date-right-text"><a className="ui teal tag label">May 2015 - December 2015</a></div>
+											<div className="timeline-date-right-text"><a className="ui right pointing teal label">May 2015 - December 2015</a></div>
 										</div>
 										<div className="timeline-panel">
 											<div className="timeline-heading">
-												<h4 className="timeline-title">Mussum ipsum cacilds</h4>
-												<p><small className="text-muted"><i className="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+												<h2 className="timeline-title"><span className="label label-success">Front End Developer (Co-op)</span></h2>
+												<p><div className="text-muted ui tag labels"><a className="ui label">Cumul8 Technologies Inc.</a></div></p>
 											</div>
 											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+												<div className="row timeline-body-container">
+													<div className = "col-sm-8">
+														<div className="ui bulleted list">
+															<div className="item">Built complex web components using React and Flux</div>
+															<div className="item">Added real time updating features using Websocket</div>
+															<div className="item">Built some front-end screens for a mobile app using React Native</div>
+														</div>
+													</div>
+													<div className = "col-sm-5">
+														<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+														<div className="ui bulleted list">
+															<div className="item">Html, Css, Javascript</div>
+															<div className="item">ReactJs, Jquery</div>
+															<div className="item">React Native</div>
+															<div className="item">Github, SourceTree</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</li>

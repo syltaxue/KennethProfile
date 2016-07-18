@@ -144,6 +144,15 @@
     margin-top: 0;
     color: inherit;
 }
+.timeline-body {
+	padding-top: 10px;
+}
+.timeline-body > .timeline-body-container {
+	display: flex;
+}
+.timeline-body-container-skillHeader{
+	font-weight: bolder;
+}
 .timeline-body > p, .timeline-body > ul {
     margin-bottom: 0;
 }
