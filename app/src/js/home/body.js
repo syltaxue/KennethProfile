@@ -44,7 +44,7 @@ var Body = React.createClass({
 										</div>
 										<div className="timeline-panel">
 											<div className="timeline-heading">
-												<h2 className="timeline-title"><span className="label label-success">Front End Developer (Co-op)</span></h2>
+												<h2 className="timeline-title"><span className="label label-danger">Front End Developer (Co-op)</span></h2>
 												<p><div className="text-muted ui tag labels"><a className="ui label">Cumul8 Technologies Inc.</a></div></p>
 											</div>
 											<div className="timeline-body">
