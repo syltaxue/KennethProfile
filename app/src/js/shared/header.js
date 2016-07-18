@@ -28,14 +28,6 @@ var Header = React.createClass({
 			</div>
 		);
 	},
-
-	_onClickLogin: function() {
-		window.alert("Login need to be implemented");
-	},
-
-	_onClickSearch: function() {
-		window.alert("Search clicked");
-	},
 	_handleClick: function(type) {
 		this.setState({active: type});
 	}

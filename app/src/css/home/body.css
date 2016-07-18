@@ -60,6 +60,17 @@
 .timeline > li > .timeline-date-right > .timeline-date-right-text > .label {
 	left: -13px;
 }
+.timeline > li > .timeline-date-left {
+	float: left;
+	width: 46%;
+}
+.timeline > li > .timeline-date-left > .timeline-date-left-text {
+	float: right;
+	margin-top: 28px;
+}
+.timeline > li > .timeline-date-left > .timeline-date-left-text > .label {
+	left: -13px;
+}
 .timeline > li > .timeline-panel {
     width: 46%;
     float: left;
@@ -143,6 +154,7 @@
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    text-shadow: 0 0 5px rgba(10, 2, 4, 0.38);
 }
 .timeline-body {
 	padding-top: 10px;
