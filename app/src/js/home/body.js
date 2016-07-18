@@ -44,7 +44,8 @@ var Body = React.createClass({
 										<div className="timeline-panel">
 											<div className="timeline-heading">
 												<h2 className="timeline-title">Front End Developer (Co-op)</h2>
-												<div className="text-muted ui tag labels"><a className="ui label">Cumul8 Technologies Inc.</a></div>
+												<div className="text-muted ui red tag labels"><a className="ui label">Cumul8 Technologies Inc.</a></div>
+												<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
 											</div>
 											<div className="timeline-body">
 												<div className="row timeline-body-container">
@@ -62,6 +63,7 @@ var Body = React.createClass({
 															<div className="item">ReactJs, Jquery</div>
 															<div className="item">React Native</div>
 															<div className="item">Git, SourceTree</div>
+															<div className="item">OS Environment: Mac</div>
 														</div>
 													</div>
 												</div>
@@ -76,7 +78,8 @@ var Body = React.createClass({
 										<div className="timeline-panel">
 											<div className="timeline-heading">
 												<h2 className="timeline-title">Test Script Developer & Enginnering Testing Assurance (Co-op)</h2>
-												<div className="text-muted ui tag labels"><a className="ui label">Broadcom Corporation</a></div>
+												<div className="text-muted ui red tag labels"><a className="ui label">Broadcom Corporation</a></div>
+												<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
 											</div>
 											<div className="timeline-body">
 												<div className="row timeline-body-container">
@@ -96,6 +99,7 @@ var Body = React.createClass({
 															<div className="item">Tcl</div>
 															<div className="item">Perl</div>
 															<div className="item">Git</div>
+															<div className="item">OS Environment: Windows</div>
 														</div>
 													</div>
 												</div>
@@ -103,65 +107,73 @@ var Body = React.createClass({
 										</div>
 									</li>
 									<li>
-										<div className="timeline-badge danger"><i className="glyphicon glyphicon-credit-card"></i></div>
-							            <div className="timeline-panel">
-											<div className="timeline-heading">
-												<h4 className="timeline-title">Mussum ipsum cacilds</h4>
-											</div>
-											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-											</div>
+										<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
+										<div className="timeline-date-right">
+											<div className="timeline-date-right-text"><a className="ui teal tag label">May 2014 - August 2014</a></div>
 										</div>
-									</li>
-									<li className="timeline-inverted">
 										<div className="timeline-panel">
 											<div className="timeline-heading">
-												<h4 className="timeline-title">Mussum ipsum cacilds</h4>
+												<h2 className="timeline-title">GUI Developer (Co-op)</h2>
+												<div className="text-muted ui red tag labels"><a className="ui label">UBC ECE - Cisco LLFI fault injection tool</a></div>
+												<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
 											</div>
 											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-											</div>
-										</div>
-									</li>
-									<li>
-										<div className="timeline-badge info"><i className="glyphicon glyphicon-floppy-disk"></i></div>
-										<div className="timeline-panel">
-							 				<div className="timeline-heading">
-												<h4 className="timeline-title">Mussum ipsum cacilds</h4>
-											</div>
-											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							  					<hr/>
-												<div className="btn-group">
-							   						<button type="button" className="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-														<i className="glyphicon glyphicon-cog"></i>
-														<span className="caret"></span>
-							                        </button>
-													<ul className="dropdown-menu" role="menu">
-														<li><a href="#">Action</a></li>
-														<li><a href="#">Another action</a></li>
-														<li><a href="#">Something else here</a></li>
-														<li className="divider"></li>
-														<li><a href="#">Separated link</a></li>
-													</ul>
+												<div className="row timeline-body-container">
+													<div className = "col-sm-8">
+														<div className="ui bulleted list">
+															<div className="item">Expended features on the GUI tool using JavaFX to make it simple and easy to use</div>
+															<div className="item">Developed and edited some of the existing scripts of the LLFI tool to support some extension features</div>
+															<div className="item">Added informative instructions and notifications in the GUI to make the product user friendly</div>
+															<div className="item">Developed some scripts in Python to automate some duplicate work</div>
+														</div>
+													</div>
+													<div className = "col-sm-5">
+														<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+														<div className="ui bulleted list">
+															<div className="item">Java, JavaFX</div>
+															<div className="item">Python</div>
+															<div className="item">C++</div>
+															<div className="item">Git</div>
+															<div className="item">OS Environment: Linux</div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
 									</li>
-									<li>
-										<div className="timeline-panel">
-											<div className="timeline-heading"><h4 className="timeline-title">Mussum ipsum cacilds</h4></div>
-											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-							 				</div>
-										</div>
-									</li>
 									<li className="timeline-inverted">
-										<div className="timeline-badge success"><i className="glyphicon glyphicon-thumbs-up"></i></div>
+										<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right"></i></div>
+										<div className="timeline-date-left">
+											<div className="timeline-date-left-text"><a className="ui right pointing teal label">July 2013 - September 2013</a></div>
+										</div>
 										<div className="timeline-panel">
-											<div className="timeline-heading"><h4 className="timeline-title">Mussum ipsum cacilds</h4></div>
+											<div className="timeline-heading">
+												<h2 className="timeline-title">Quality Assurance (Co-op)</h2>
+												<div className="text-muted ui red tag labels"><a className="ui label">AutoNavi Software Co., Ltd.</a></div>
+												<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
+											</div>
 											<div className="timeline-body">
-												<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+												<div className="row timeline-body-container">
+													<div className = "col-sm-8">
+														<div className="ui bulleted list">
+															<div className="item">Designed and programmed a server that receives commands from users and sends back results and commands to the client side</div>
+															<div className="item">Researched, learned, and applied techniques, such as epoll, select, multiple threads with locks, and the lock free circular queues, to deal with high concurrent cases</div>
+															<div className="item">Designed a program that parsed the online log files to extract user information with encrypting and decrypting techniques</div>
+															<div className="item">Debugged and tested the programs using gcc, g++, gdb, and valgrind</div>
+															<div className="item">Learned some basic and frequently used shell commands/script in Linux Centos system</div>
+															<div className="item">Improved coding style to make it more readable and easier to maintain</div>
+															<div className="item">Cooperated and communicated effectively with other team members; worked and learned independently under mineral guidance</div>
+														</div>
+													</div>
+													<div className = "col-sm-5">
+														<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+														<div className="ui bulleted list">
+															<div className="item">C, C++</div>
+															<div className="item">Bash scripts</div>
+															<div className="item">OS Environment: Linux</div>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</li>

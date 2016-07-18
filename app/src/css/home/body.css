@@ -1,5 +1,5 @@
-.body-container {
-	background-color:floralwhite;
+#bodyContext {
+	background-color:#f4f4f4;
 }
 .ui.right.rail {
 	padding: 0;
@@ -155,6 +155,9 @@
     margin-top: 0;
     color: inherit;
     text-shadow: 0 0 5px rgba(10, 2, 4, 0.38);
+}
+.timeline-title-type {
+	margin-top: 10px;
 }
 .timeline-body {
 	padding-top: 10px;
