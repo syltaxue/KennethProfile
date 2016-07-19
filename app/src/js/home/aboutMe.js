@@ -12,10 +12,10 @@ var Aboutme = React.createClass({
 							<div className = "col-sm-8">
 								<div className="aboutMe-title"><h2>About Me</h2></div>
 								<div className="aboutMe-body">
-									<p>I am a 4th year student in Software Engineering at the University of British Columbia in Canada Vancouver.</p>
-									<p>I am interested in working at start-ups with interesting ideas. Especially the ones relate to data and machine learning. I believe, in the future, most of the things people use will be auto-suggested, and there will be tons of smart devices that make life easier ( so machine learning, data mining, AI, smart devices are the fields that I will dig into).</p>
-									<p>I am the type of person that do not like "peace" life. I would like to work somewhere full of challenges (That's why I love to work at startups). </p>
-									<p>I will be really interested in jobs in the related fields as mentioned above after graduation starting from May 2017.</p>
+									<p>I am really interested in working at fast growing companies where I may get chances to try multiple tasks/roles and take responsibilities. </p>
+									<p>I believe, in the future, most of the things that people use in every-day life will be auto-suggested, and there will be tons of smart devices that make life easier ( so <strong>machine learning</strong>, <strong>data mining</strong>, and <strong>AI</strong> are the fields that I would like to dig into if I get a chance).</p>
+									<p>I am the type of person that do not like "peace" life. I would like to work somewhere full of challenges (That's why I love to work at fast growing companies).</p>
+									<p>I will be graduating in May 2017, and I am looking for jobs starting in <strong>May 2017</strong>.</p>
 								</div>
 							</div>
 							<div className = "col-sm-2"></div>
