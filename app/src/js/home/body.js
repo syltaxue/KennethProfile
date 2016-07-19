@@ -1,12 +1,14 @@
 var React = require("react");
 var ProductItem = require("./../components/productItem");
 var Timeline = require("./timeline");
+var AboutMe = require("./AboutMe");
 
 var Body = React.createClass({
 	componentDidMount: function() {
 		// Have the navigator stick to the page while scrolling
 		$('.ui.sticky')
 			.sticky({
+				topOffset: 50,
 				bottomOffset: 50,
 				context: '#bodyContext'
 		});
@@ -15,6 +17,7 @@ var Body = React.createClass({
 	render: function() {
 		return (
 			<div id ="bodyContext">
+				<AboutMe/>
 				<div className = "row">
 					<div className = "col-sm-1">
 					</div>
