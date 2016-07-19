@@ -20,7 +20,7 @@ var Picture = React.createClass({
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/ai.jpg"/>
+						<img width={width} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background2.jpg"/>
 						<Carousel.Caption>
 							<h3 className="text-header">Work Perference: AI</h3>
 							<p>I beleive, in the future, tons of smart devices will make our life easier</p>
