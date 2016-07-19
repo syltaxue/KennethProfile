@@ -12,6 +12,10 @@
 	top: initial;
 }
 
+.ui.rail {
+	top: 20px;
+}
+
 .ui.sticky.bound.bottom {
 	bottom: 50px;
 	position: fixed;

@@ -8,7 +8,6 @@ var Body = React.createClass({
 		// Have the navigator stick to the page while scrolling
 		$('.ui.sticky')
 			.sticky({
-				topOffset: 50,
 				bottomOffset: 50,
 				context: '#bodyContext'
 		});
