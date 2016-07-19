@@ -3,7 +3,7 @@ var ProductItem = require("./../components/productItem");
 var Aboutme = React.createClass({
 	render: function() {
 		return (
-			<div className = "row aboutme">
+			<div className = "row aboutme" id="aboutMe">
 				<div className = "col-sm-12">
 					<div className="aboutMe-bg"></div>
 					<div className="aboutMe-container">
