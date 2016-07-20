@@ -1,4 +1,5 @@
 var React = require("react");
+var Awards = require("./awards");
 var Timeline = require("./timeline");
 var AboutMe = require("./AboutMe");
 
@@ -30,6 +31,7 @@ var Body = React.createClass({
 						<div className = "body">
 							<div className = "body-container">
 								<Timeline/>
+								<Awards/>
 							</div>
 						</div>
 					</div>
