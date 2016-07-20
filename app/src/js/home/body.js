@@ -2,6 +2,7 @@ var React = require("react");
 var Awards = require("./awards");
 var Timeline = require("./timeline");
 var AboutMe = require("./AboutMe");
+var ContactMe = require("./contactMe");
 
 var Body = React.createClass({
 	componentDidMount: function() {
@@ -31,7 +32,10 @@ var Body = React.createClass({
 						<div className = "body">
 							<div className = "body-container">
 								<Timeline/>
+								<div className="ui divider"></div>
 								<Awards/>
+								<div className="ui divider"></div>
+								<ContactMe/>
 							</div>
 						</div>
 					</div>
