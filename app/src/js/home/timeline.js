@@ -1,6 +1,4 @@
 var React = require("react");
-var ProductItem = require("./../components/productItem");
-
 var Timeline = React.createClass({
 	render: function() {
 		return (

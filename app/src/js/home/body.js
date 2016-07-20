@@ -1,5 +1,4 @@
 var React = require("react");
-var ProductItem = require("./../components/productItem");
 var Timeline = require("./timeline");
 var AboutMe = require("./AboutMe");
 

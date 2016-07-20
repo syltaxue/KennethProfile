@@ -1,5 +1,5 @@
 var React = require("react");
-var Aboutme = React.createClass({
+var Award = React.createClass({
 	render: function() {
 		return (
 			<div className = "row aboutme" id="aboutMe">
@@ -26,4 +26,4 @@ var Aboutme = React.createClass({
 	}
 });
 
-module.exports = Aboutme;
+module.exports = Award;
