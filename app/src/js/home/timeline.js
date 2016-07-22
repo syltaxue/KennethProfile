@@ -8,13 +8,13 @@ var Timeline = React.createClass({
 					<li>
 						<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
 						<div className="timeline-date-right">
-							<div className="timeline-date-right-text"><a className="ui teal tag label">May 2015 - December 2015</a></div>
+							<div className="timeline-date-right-text"><div className="ui teal tag label">May 2015 - December 2015</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">Front End Developer (Co-op)</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">Cumul8 Technologies Inc.</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">Cumul8 Technologies Inc.</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">Work Experience</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
@@ -42,13 +42,13 @@ var Timeline = React.createClass({
 					<li className="timeline-inverted">
 						<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right"></i></div>
 						<div className="timeline-date-left">
-							<div className="timeline-date-left-text"><a className="ui right pointing teal label">August 2014 - May 2015</a></div>
+							<div className="timeline-date-left-text"><div className="ui right pointing teal label">August 2014 - May 2015</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">Test Script Developer & Enginnering Testing Assurance (Co-op)</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">Broadcom Corporation</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">Broadcom Corporation</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">Work Experience</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
@@ -78,13 +78,13 @@ var Timeline = React.createClass({
 					<li>
 						<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
 						<div className="timeline-date-right">
-							<div className="timeline-date-right-text"><a className="ui teal tag label">May 2014 - August 2014</a></div>
+							<div className="timeline-date-right-text"><div className="ui teal tag label">May 2014 - August 2014</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">GUI Developer (Co-op)</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">UBC ECE - Cisco LLFI fault injection tool</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">UBC ECE - Cisco LLFI fault injection tool</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">Work Experience</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
@@ -113,13 +113,13 @@ var Timeline = React.createClass({
 					<li className="timeline-inverted">
 						<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right"></i></div>
 						<div className="timeline-date-left">
-							<div className="timeline-date-left-text"><a className="ui right pointing teal label">July 2013 - September 2013</a></div>
+							<div className="timeline-date-left-text"><div className="ui right pointing teal label">July 2013 - September 2013</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">Quality Assurance (Co-op)</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">AutoNavi Software Co., Ltd.</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">Work Experience</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">AutoNavi Software Co., Ltd.</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">Work Experience</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
@@ -149,13 +149,13 @@ var Timeline = React.createClass({
 					<li>
 						<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left"></i></div>
 						<div className="timeline-date-right">
-							<div className="timeline-date-right-text"><a className="ui teal tag label">March 2013 - May 2013</a></div>
+							<div className="timeline-date-right-text"><div className="ui teal tag label">March 2013 - May 2013</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">Security Camera Android App</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">Android Java Project</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">School Project</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">Android Java Project</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">School Project</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
@@ -182,13 +182,13 @@ var Timeline = React.createClass({
 					<li className="timeline-inverted">
 						<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right"></i></div>
 						<div className="timeline-date-left">
-							<div className="timeline-date-left-text"><a className="ui right pointing teal label">January 2013 - April 2013</a></div>
+							<div className="timeline-date-left-text"><div className="ui right pointing teal label">January 2013 - April 2013</div></div>
 						</div>
 						<div className="timeline-panel">
 							<div className="timeline-heading">
 								<h2 className="timeline-title">Parking Pal Web Service</h2>
-								<div className="text-muted ui red tag labels"><a className="ui label">Java Web Project</a></div>
-								<div className="text-muted ui tag labels timeline-title-type"><a className="ui label">School Project</a></div>
+								<div className="text-muted ui red tag labels"><div className="ui label">Java Web Project</div></div>
+								<div className="text-muted ui tag labels timeline-title-type"><div className="ui label">School Project</div></div>
 							</div>
 							<div className="timeline-body">
 								<div className="row timeline-body-container">
