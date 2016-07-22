@@ -13,6 +13,7 @@ var Aboutme = React.createClass({
 									<p><span className="glyphicon glyphicon-envelope"></span> Email: syltaxue@hotmail.com</p>
 									<p><span className="glyphicon glyphicon-phone"></span> Phone: (778) 926-4913</p>
 									<p>Linkedin: https://www.linkedin.com/in/kennethsong</p>
+									<p>Github: https://github.com/syltaxue</p>
 								</div>
 							</div>
 							<div className = "col-sm-2"></div>
