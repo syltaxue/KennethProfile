@@ -4,7 +4,7 @@ var Aboutme = React.createClass({
 		return (
 			<div className = "row" id="contactMe">
 				<div className = "col-sm-12">
-					<div className="aboutMe-container">
+					<div className="contactMe-container">
 						<div className = "row">
 							<div className = "col-sm-2"></div>
 							<div className = "col-sm-8">
