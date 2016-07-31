@@ -12,7 +12,7 @@ var Picture = React.createClass({
 						<img width={'100%'} height={height} className="navigator-picture" alt="900x400" src="./../app/src/image/background.jpg"/>
 						<img id="description-icon" src="./../app/src/image/ubc2.gif" height="100px" width="100px"></img>
 						<Carousel.Caption>
-							<h3 className="text-header">Studying at UBC as a software enginnering student</h3>
+							<h3 className="text-header">Studying at UBC as a software engineering student</h3>
 							<p>Graduating in May 2017</p>
 							<p>Had a 20-month Co-op experience</p>
 							<p>Will be available for a full-time position</p>

@@ -20,3 +20,8 @@
 	bottom: 50px;
 	position: fixed;
 }
+@media (max-width: 414px) {
+	.ui.right.rail {
+		display: none;
+	}
+}
