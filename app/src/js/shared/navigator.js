@@ -19,7 +19,7 @@ var Navigator = React.createClass({
 									<a className="item" onClick={this._scrollToTimeLine}>Time Line</a>
 									<a className="item" onClick={this._scrollToAwards}>Awards & Honors</a>
 									<div className="right menu">
-										<a className="ui item" onClick={this._scrollToContactMe}>Contact Information</a>
+										<a className="ui item disabled">Kenneth Song</a>
 									</div>
 								</div>
 							</div>
@@ -43,9 +43,6 @@ var Navigator = React.createClass({
 	},
 	_scrollToAwards: function() {
 		window.scrollTo(0, $("#awards").offset().top);
-	},
-	_scrollToContactMe: function() {
-		window.scrollTo(0, $("#contactMe").offset().top);
 	}
 });
 

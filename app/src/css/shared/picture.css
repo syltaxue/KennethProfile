@@ -22,3 +22,9 @@
 .text-header {
 	text-shadow: 0 0 5px #fff;
 }
+.font-size-larger {
+	font-size: larger;
+}
+.font-size-xlarge {
+	font-size: x-large;
+}

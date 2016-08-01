@@ -19,7 +19,7 @@ var Header = React.createClass({
 						<div className = "col-sm-1"></div>
 						<div className = "col-sm-10">
 							<div className = "header-container-context" onClick={this._handleClick.bind(this, 'home')}>
-								<div className="header-buttons-text">Kenneth Personal Profile</div>
+								<div className="header-buttons-text">Kenneth's Portfolio</div>
 							</div>
 						</div>
 						<div className= "col-sm-1"></div>

@@ -3,22 +3,50 @@ var Aboutme = React.createClass({
 	render: function() {
 		return (
 			<div className = "row aboutme" id="aboutMe">
-				<div className = "col-sm-12">
-					<div className="aboutMe-bg"></div>
-					<div className="aboutMe-container">
-						<div className = "row">
-							<div className = "col-sm-2"></div>
-							<div className = "col-sm-8">
-								<div className="aboutMe-title"><h2>About Me</h2></div>
-								<div className="aboutMe-body">
-									<p>I am really interested in working at fast growing companies where I may get chances to try multiple tasks/roles and take responsibilities. </p>
-									<p>I believe, in the future, most of the things that people use in every-day life will be auto-suggested, and there will be tons of smart devices that make life easier ( so <strong>machine learning</strong>, <strong>data mining</strong>, and <strong>AI</strong> are the fields that I would like to dig into if I get a chance).</p>
-									<p>I am the type of person that do not like "peace" life. I would like to work somewhere full of challenges (That's why I love to work at fast growing companies).</p>
-									<p>I will be graduating in May 2017, and I am looking for jobs starting in <strong>May 2017</strong>.</p>
-								</div>
+				<div className="container aboutMe-topHalf">
+					<div className="row">
+						<div className="section-title item_bottom text-center">
+							<div>
+								<span className="fa fa-user fa-2x"></span>
 							</div>
-							<div className = "col-sm-2"></div>
+							<h1><span className="aboutMe-titile-about">About</span><span>Me</span></h1>
 						</div>
+					</div>
+					<div className="row">
+						<div className="col-md-4 text-center item_bottom font-medium">
+							<div>
+								<p className="quoteline">
+									EDUCATION
+								</p>
+								<h4>Bechelor Degree of Computer Engineering Software Option</h4>
+								<h5>The University of British Columbia</h5>
+								<p>With 20 months of Co-op Experience</p>
+								<p>2011 -  Present</p>
+								<p>Graduating in May, 2017</p>
+							</div>
+						</div>
+						<div className="col-md-4 text-center item_top font-medium">
+							<div >
+								<p>I am really interested in working at fast growing companies where I may get chances to try multiple tasks/roles and take responsibilities. </p>
+								<p>I believe, in the future, most of the things that people use in every-day life will be auto-suggested, and there will be tons of smart devices that make life easier ( so <strong>machine learning</strong>, <strong>data mining</strong>, and <strong>AI</strong> are the fields that I would like to dig into if I get a chance).</p>
+								<p>I am the type of person that do not like "peace" life. I would like to work somewhere full of challenges (That's why I love to work at fast growing companies).</p>
+							</div>
+						</div>
+						<div className="col-md-4 item_bottom font-medium">
+							<p><span className="glyphicon glyphicon-envelope"></span> Email: syltaxue@hotmail.com</p>
+							<p><span className="glyphicon glyphicon-phone"></span> Phone: (778) 926-4913</p>
+							<p><i className="fa fa-globe"></i> Linkedin: https://www.linkedin.com/in/kennethsong</p>
+							<p><i className="fa fa-globe"></i> Github: https://github.com/syltaxue</p>
+						</div>
+					</div>                   
+				</div>
+				<div className="fullwidth-section bg-callout">
+					<div className="container">
+					<div className="row">
+						<div className="col-md-12 text-center">
+							<h1 className="white padBottom killMargin">I am available for a start in <strong>May , 2017</strong></h1>
+						</div>
+					</div>
 					</div>
 				</div>
 			</div>
