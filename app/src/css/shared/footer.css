@@ -1,6 +1,10 @@
 .footer {
-	background-color:gainsboro;
+	background-color: #1B1C1D;
 }
 	.footer-container {
 		text-align: center;
+		padding: 30px 0;
+	}
+	.footer-padding {
+		padding-top: 15px;
 	}

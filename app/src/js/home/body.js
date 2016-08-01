@@ -32,13 +32,13 @@ var Body = React.createClass({
 							<div className = "body-container">
 								<Timeline/>
 								<div className="ui divider"></div>
-								<Awards/>
 							</div>
 						</div>
 					</div>
 					<div className = "col-sm-1">
 					</div>
 				</div>
+				<Awards/>
 			</div>
 		);
 	},
