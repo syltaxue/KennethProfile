@@ -3,7 +3,7 @@ var Award = React.createClass({
 	render: function() {
 		return (
 			<div className = "row" id="awards">
-				<div className="container bg-callout">
+				<div className="bg-callout">
 					<div className="awards-container">
 						<div className="row">
 							<div className="section-title item_bottom text-center col-xs-12">
@@ -15,7 +15,7 @@ var Award = React.createClass({
 						</div>
 						<div className="row item_bottom">
 							<div className="col-xs-12">
-								<div className="text-center"> 
+								<div className="text-center xs-padding"> 
 									<h3 className="white xs-font-medium">Work Learn International Undergraduate Research Award - 2014</h3>
 									<p className="white xs-font-small">Awarded to 5 international students at UBC each year for research interests (same as NSERC)</p>
 									<div className="ui divider white"></div>

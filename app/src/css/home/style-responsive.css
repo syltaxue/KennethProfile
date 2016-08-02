@@ -106,10 +106,13 @@ font-size:44px;
 }
 
 @media (max-width: 1024px) {
+#timeline {
+    text-align: center;
+}
 .xs-padding {
     padding: 0 15%;
     padding-bottom: 30px;
-    text-align: center;
+    text-align: center ;
 }.xs-font-larger {
     font-size:larger;
 }
