@@ -3,6 +3,8 @@
 	flex-direction: column;
 	top: 0 !important;
 	bottom: auto !important;
+    background-color: #1B1C1D;
+    padding: 0 !important;
 }
 	.navigator-container {
 		background-color: #1B1C1D;
@@ -25,6 +27,163 @@
 .navigator {
 	margin: 0;
 	min-height: auto !important;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    transition: all 1s ease-out 0s;
+    z-index: 3000;
+}
+.navbar .navbar-nav {
+    float: none;
+    margin: 10px 0;
+}
+.navbar .navbar-nav li {
+    display: block;
+    margin-left: 5px;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar .navbar-nav li a {
+    background-clip: border-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    outline: medium none;
+    padding: 12px 16px;
+}
+.navbar .navbar-nav li a:hover {
+    background-color: #DF5757;
+    color: #FFFFFF;
+    outline: medium none;
+}
+.navbar .navbar-nav li a:focus {
+    background-color: rgba(0, 0, 0, 0);
+    outline: medium none;
+}
+.navbar .navbar-nav li:hover {
+    background-clip: border-box;
+    background-color: #DF5757;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.navbar .navbar-nav .active {
+    background-clip: border-box;
+    background-color: #DF5757;
+    border-radius: 4px;
+    color: #FFFFFF;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover {
+    color: #FFFFFF;
+}
+.navbar .navbar-brand {
+    margin: 0 0 0 15px;
+    padding: 0;
+}
+.navbar .navbar-header h1 {
+    font-size: 1.88889em;
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar-header h1 a.navbar-brand-title {
+    display: inline-block;
+    font-size: inherit;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+.navbar .navbar-toggle {
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline: medium none;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar .navbar-toggle:hover {
+    background-color: #717171;
+    border: 1px solid #717171;
+}
+.navbar .navbar-toggle:hover .icon-bar {
+    background-color: #FFFFFF;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: #8B8B8B;
+}
+.navbar .navbar-collapse {
+    background-color: #3b3f50;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0) inset;
+    margin-top: 15px;
+    text-align: center;
+    max-height:400px;
+}
+.navbar-transparent {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 #000000;
+}
+.navbar-transparent .navbar-nav .active {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+    margin-top: 0;
+}
+.navbar-transparent .navbar-nav .active a {
+    color: #FFFFFF;
+}
+.navbar-transparent .navbar-nav li a {
+    color: #FFFFFF;
+}
+.navbar-transparent .navbar-nav li a:hover {
+    background-color: #FFFFFF;
+    color: #717171;
+}
+.navbar-transparent .navbar-nav li {
+    color: #FFFFFF;
+}
+.navbar-transparent .navbar-nav li:hover {
+    background-color: #FFFFFF;
+    color: #717171;
+}
+.navbar-transparent .navbar-nav .active:hover {
+    background-color: #FFFFFF;
+    border: medium none;
+    color: #717171;
+}
+.navbar-transparent .navbar-nav .active:hover a {
+    background-color: #FFFFFF;
+    color: #717171;
+}
+.navbar-transparent .navbar-toggle {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline: medium none;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar-transparent .navbar-toggle:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.navbar-transparent .navbar-toggle:hover .icon-bar {
+    background-color: #717171;
+    transition: all 0.2s ease-out 0s;
+}
+.navbar-transparent .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+.darken {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.minified {
+    opacity: 0.9;
+    padding: 15px 0 5px 0px;
+    transition: all 0.5s ease-out 0s;
 }
 .nav-dropDown-subMenu .dropdown-menu {
 	right: -101%;

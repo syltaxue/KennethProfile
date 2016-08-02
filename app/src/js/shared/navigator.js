@@ -8,26 +8,33 @@ var Navigator = React.createClass({
 	render: function() {
 		return (
 			<div className = "navigator navbar navbar-default">
-				<div className = "navigator-container">
-					<div className= "col-sm-1"></div>
-					<div className= "col-sm-10 navigator-container-content">
-						<div className= "col-sm-10">
+				<div className = "navigator-container row">
+					<div className= "col-xs-1"></div>
+					<div className= "col-xs-10 navigator-container-content">
+						<div className= "col-sm-10 col-xs-12">
 							<div className = "navigator-buttons">
 								<div className="ui large secondary inverted pointing menu">
-									<a className="item active" onClick={this._scrollToHome}>Home</a>
-									<a className="item" onClick={this._scrollToAboutMe}>About Me</a>
-									<a className="item" onClick={this._scrollToTimeLine}>Time Line</a>
-									<a className="item" onClick={this._scrollToAwards}>Awards & Honors</a>
-									<div className="right menu">
-										<a className="ui item disabled">Kenneth Song</a>
-									</div>
+									<nav id="my-nav" className="navbar-collapse collapse" role="navigation">
+									<ul className="nav navbar-nav">
+										<li>
+										<a className="item active" onClick={this._scrollToHome}>Home</a>
+										</li>
+										<li>
+										<a className="item" onClick={this._scrollToAboutMe}>About Me</a>
+										</li>
+										<li>
+										<a className="item" onClick={this._scrollToTimeLine}>Time Line</a>
+										</li>
+										<li>
+										<a className="item" onClick={this._scrollToAwards}>Awards & Honors</a>
+										</li>
+									</ul>
+									</nav>
 								</div>
 							</div>
 						</div>
-						<div className= "col-sm-2">
-						</div>
 					</div>
-					<div className= "col-sm-1"></div>
+					<div className= "col-xs-1"></div>
 				</div>
 			</div>
 		);

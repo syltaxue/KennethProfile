@@ -144,9 +144,6 @@
 .timeline-body {
 	padding-top: 10px;
 }
-.timeline-body > .timeline-body-container {
-	display: flex;
-}
 .timeline-body-container-skillHeader{
 	font-weight: bolder;
 }
