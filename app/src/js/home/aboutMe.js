@@ -18,7 +18,7 @@ var Aboutme = React.createClass({
 								<p className="quoteline">
 									EDUCATION
 								</p>
-								<h4>Bechelor Degree of Computer Engineering Software Option</h4>
+								<h4>Bachelor Degree of Computer Engineering Software Option</h4>
 								<h5>The University of British Columbia</h5>
 								<p>With 20 months of Co-op Experience</p>
 								<p>2011 -  Present</p>
