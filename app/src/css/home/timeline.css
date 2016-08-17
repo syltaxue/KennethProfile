@@ -3,6 +3,11 @@
     padding: 20px 0 20px;
     position: relative;
 }
+.timeline-container > .page-header {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
 .timeline:before {
     top: 0;
     bottom: 0;
