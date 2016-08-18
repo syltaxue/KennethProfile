@@ -6,7 +6,7 @@ var Timeline = React.createClass({
 				<div className="page-header row">
 					<div className="section-title item_bottom text-center col-xs-12">
 						<div>
-							<span className="fa fa-clock-o fa-2x"></span>
+							<span className="fa fa-calendar fa-2x"></span>
 						</div>
 						<h1><span className="aboutMe-titile-about">Timeline</span></h1>
 					</div>
