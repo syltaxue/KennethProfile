@@ -13,6 +13,43 @@ var Timeline = React.createClass({
 				</div>
 				<div>
 					<ul className="timeline">
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide">July 2016 - August 2016</div></div>
+							</div>
+							<div className="timeline-panel">
+								<div className="timeline-heading">
+									<h2 className="timeline-title xs-font-larger">Website Development</h2>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Website Projects</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Personal Projects</div></div>
+									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">July 2016 - August 2016</div></div>
+								</div>
+								<div className="timeline-body">
+									<div className="row timeline-body-container">
+										<div className = "col-sm-8">
+											<div className="ui bulleted list xs-font-xsmall">
+												<div className="item">Built and Designed my perosnal portfolio website</div>
+												<div className="item">http://syltaxue.com/</div>
+												<div className="item">Built a website for a BC registered non-profit organization</div>
+												<div className="item">http://lovecaravan.ca/</div>
+												<div className="item">Gained experience on the full life cycle of website development and hosting</div>
+												<div className="item">Accumulated more experience about animation and styling of website components</div>
+											</div>
+										</div>
+										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
+											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+											<div className="ui bulleted list">
+												<div className="item">Html, CSS, JS</div>
+												<div className="item">ReactJS, Bootstrap, Jquery</div>
+												<div className="item">Semantic UI, Animate</div>
+												<div className="item">OS Environment: Windows</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
 						<li>
 							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
 							<div className="timeline-date-right">
