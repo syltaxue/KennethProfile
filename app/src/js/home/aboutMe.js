@@ -28,7 +28,7 @@ var Aboutme = React.createClass({
 						<div className="col-md-4 text-center item_top font-medium xs-padding">
 							<div >
 								<p>I am really interested in working at fast growing companies where I may get chances to try multiple tasks/roles and take responsibilities. </p>
-								<p>I believe, in the future, most of the things that people use in every-day life will be auto-suggested, and there will be tons of smart devices that make life easier ( so <strong>machine learning</strong>, <strong>data mining</strong>, and <strong>AI</strong> are the fields that I would like to dig into if I get a chance).</p>
+								<p>I believe, in the future, most of the things that people use in every-day life will be auto-suggested, and there will be tons of smart devices that make life easier ( so <strong>machine learning</strong>, <strong>data mining</strong>, and <strong>big data</strong> are the fields that I would like to dig into if I get a chance).</p>
 								<p>I am the type of person that do not like "peace" life. I would like to work somewhere full of challenges (That's why I love to work at fast growing companies).</p>
 							</div>
 						</div>

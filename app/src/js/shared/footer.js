@@ -7,7 +7,7 @@ var Footer = React.createClass({
 			<div className = "footer">
 				<div className = "footer-container">
 					<div className="white">©Designed and Built by Kenneth Song</div>
-					<div className="white footer-padding">Last Updated: 2016, August 19th</div>	
+					<div className="white footer-padding">Last Updated: 2016, September 12th</div>	
 				</div>
 			</div>
 		);

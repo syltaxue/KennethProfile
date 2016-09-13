@@ -68,6 +68,7 @@ var Timeline = React.createClass({
 											<div className="ui bulleted list xs-font-xsmall">
 												<div className="item">Built complex web components using React and Flux</div>
 												<div className="item">Added real time updating features using Websocket</div>
+												<div className="item">Fixed some bugs on the back end side written in the Go language</div>
 												<div className="item">Built some front-end screens for a mobile app using React Native</div>
 											</div>
 										</div>
@@ -75,7 +76,7 @@ var Timeline = React.createClass({
 											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
 											<div className="ui bulleted list">
 												<div className="item">Html, Css, Javascript</div>
-												<div className="item">ReactJs, Jquery</div>
+												<div className="item">ReactJs, JQuery</div>
 												<div className="item">React Native</div>
 												<div className="item">Git, SourceTree</div>
 												<div className="item">OS Environment: Mac</div>
