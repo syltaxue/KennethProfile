@@ -16,13 +16,13 @@ var Timeline = React.createClass({
 						<li className="timeline-inverted">
 							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
 							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide">July 2016 - August 2016</div></div>
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">July 2016 - August 2016</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Website Development</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Website Projects</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Personal Projects</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Website Projects</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Personal Projects</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">July 2016 - August 2016</div></div>
 								</div>
 								<div className="timeline-body">
@@ -53,13 +53,13 @@ var Timeline = React.createClass({
 						<li>
 							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
 							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label">May 2015 - December 2015</div></div>
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">May 2015 - December 2015</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Front End Developer (Co-op)</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Cumul8 Technologies Inc.</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Work Experience</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Cumul8 Technologies Inc.</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Work Experience</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">May 2015 - December 2015</div></div>
 								</div>
 								<div className="timeline-body">
@@ -89,13 +89,13 @@ var Timeline = React.createClass({
 						<li className="timeline-inverted">
 							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
 							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide">August 2014 - May 2015</div></div>
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">August 2014 - May 2015</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Test Script Developer & Enginnering Testing Assurance (Co-op)</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Broadcom Corporation</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Work Experience</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Broadcom Corporation</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Work Experience</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">August 2014 - May 2015</div></div>
 								</div>
 								<div className="timeline-body">
@@ -126,13 +126,13 @@ var Timeline = React.createClass({
 						<li>
 							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
 							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide">May 2014 - August 2014</div></div>
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide font-size-inherit">May 2014 - August 2014</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">GUI Developer (Co-op)</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">UBC ECE - Cisco fault injection tool</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Work Experience</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">UBC ECE - Cisco fault injection tool</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Work Experience</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">May 2014 - August 2014</div></div>
 								</div>
 								<div className="timeline-body">
@@ -162,13 +162,13 @@ var Timeline = React.createClass({
 						<li className="timeline-inverted">
 							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
 							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide">July 2013 - September 2013</div></div>
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">July 2013 - September 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Quality Assurance (Co-op)</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">AutoNavi Software Co., Ltd.</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">Work Experience</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">AutoNavi Software Co., Ltd.</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Work Experience</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">July 2013 - September 2013</div></div>
 								</div>
 								<div className="timeline-body">
@@ -199,13 +199,13 @@ var Timeline = React.createClass({
 						<li>
 							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
 							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide">March 2013 - May 2013</div></div>
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide font-size-inherit">March 2013 - May 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Security Camera Android App</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Android Java Project</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">School Project</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Android Java Project</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Project</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">March 2013 - May 2013</div></div>
 								</div>
 								<div className="timeline-body">
@@ -233,13 +233,13 @@ var Timeline = React.createClass({
 						<li className="timeline-inverted">
 							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
 							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide">January 2013 - April 2013</div></div>
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">January 2013 - April 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Parking Pal Web Service</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label">Java Web Project</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label">School Project</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Java Web Project</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Project</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">January 2013 - April 2013</div></div>
 								</div>
 								<div className="timeline-body">
