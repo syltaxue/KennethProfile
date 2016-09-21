@@ -16,6 +16,74 @@ var Timeline = React.createClass({
 						<li className="timeline-inverted">
 							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
 							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">September 2016 - Present</div></div>
+							</div>
+							<div className="timeline-panel">
+								<div className="timeline-heading">
+									<h2 className="timeline-title xs-font-larger">Reach Social Mobile App</h2>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Mobile App(Android & IOS) Projects</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Projects</div></div>
+									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
+								</div>
+								<div className="timeline-body">
+									<div className="row timeline-body-container">
+										<div className = "col-sm-8">
+											<div className="ui bulleted list xs-font-xsmall">
+												<div className="item">Building an IOS & Android app that provides the ability to do different class activities for students</div>
+												<div className="item">Designing the UI/UX for the app</div>
+												<div className="item">Providing some key features for the app, e.g. file upload/sharing, group conversation thread</div>
+											</div>
+										</div>
+										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
+											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+											<div className="ui bulleted list">
+												<div className="item">Android, IOS mobile app developent</div>
+												<div className="item">UX/UI</div>
+												<div className="item">OS Environment: Mac</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">September 2016 - Present</div></div>
+							</div>
+							<div className="timeline-panel">
+								<div className="timeline-heading">
+									<h2 className="timeline-title xs-font-larger">LLFI Web Service</h2>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Full Stack Web Development</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Personal Projects</div></div>
+									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
+								</div>
+								<div className="timeline-body">
+									<div className="row timeline-body-container">
+										<div className = "col-sm-8">
+											<div className="ui bulleted list xs-font-xsmall">
+												<div className="item">Building a  front-end web GUI for the LLFI tool following the desktop version</div>
+												<div className="item">Hosting the back-end server that executes scripts for the front-end requests</div>
+												<div className="item">Building a simple database that contains different user models</div>
+											</div>
+										</div>
+										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
+											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
+											<div className="ui bulleted list">
+												<div className="item">ReactJS</div>
+												<div className="item">MongoDB</div>
+												<div className="item">Html, Css, Javascript</div>
+												<div className="item">NodeJS</div>
+												<div className="item">OS Environment: Windows</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
 								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">July 2016 - August 2016</div></div>
 							</div>
 							<div className="timeline-panel">
