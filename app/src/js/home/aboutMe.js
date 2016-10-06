@@ -35,7 +35,7 @@ var Aboutme = React.createClass({
 						<div className="col-md-4 item_bottom font-medium xs-padding">
 							<p><span className="glyphicon glyphicon-user"></span> Name: Yilun Song (Kenneth)</p>
 							<p><span className="glyphicon glyphicon-envelope"></span> Email: syltaxue@hotmail.com</p>
-							<p><span className="glyphicon glyphicon-phone"></span> Phone: (778) 926-4913</p>
+							<p><span className="glyphicon glyphicon-phone"></span> Phone: +1 (778) 926-4913</p>
 							<p><i className="fa fa-globe"></i> Linkedin: https://www.linkedin.com/in/kennethsong</p>
 							<p><i className="fa fa-globe"></i> Github: https://github.com/syltaxue</p>
 							<p><i className="fa fa-file-word-o"></i> My Resume: <a href="./Resume_YilunSong.docx" download>Resume</a></p>
