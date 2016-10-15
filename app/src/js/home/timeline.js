@@ -21,7 +21,7 @@ var Timeline = React.createClass({
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Reach Social Mobile App</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Mobile App Developer</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">IOS App Developer</div></div>
 									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Projects</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
 								</div>
@@ -29,8 +29,7 @@ var Timeline = React.createClass({
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Building an IOS & Android app that provides the ability to do different class activities for students</div>
-												<div className="item">Using xamarin in C# to build a IOS/Android cross-platform app in one codebase</div>
+												<div className="item">Building an IOS app using Swift that provides the ability to do different class activities for students</div>
 												<div className="item">Designing the UI/UX for the app</div>
 												<div className="item">Developing key features for the app, e.g. file upload/sharing, group conversation thread</div>
 											</div>
@@ -38,8 +37,8 @@ var Timeline = React.createClass({
 										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
 											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
 											<div className="ui bulleted list">
-												<div className="item">Android, IOS mobile app developent</div>
-												<div className="item">C#, Xamarin</div>
+												<div className="item">IOS mobile app developent</div>
+												<div className="item">Swift </div>
 												<div className="item">UX/UI</div>
 												<div className="item">OS Environment: Mac</div>
 											</div>
