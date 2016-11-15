@@ -21,7 +21,7 @@ var Timeline = React.createClass({
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Reach Social Mobile App</h2>
-									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">IOS App Developer</div></div>
+									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Cross-Platform App Developer</div></div>
 									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Projects</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
 								</div>
@@ -29,16 +29,17 @@ var Timeline = React.createClass({
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Building an IOS app using Swift that provides the ability to do different class activities for students</div>
+												<div className="item">Building a cross-platform app using React Native that provides the ability to do different class activities for students</div>
 												<div className="item">Designing the UI/UX for the app</div>
 												<div className="item">Developing key features for the app, e.g. file upload/sharing, group conversation thread</div>
+												<div className="item">Initialize team work with other team members and make sure the product can be delivered on time</div>
 											</div>
 										</div>
 										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
 											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
 											<div className="ui bulleted list">
-												<div className="item">IOS mobile app developent</div>
-												<div className="item">Swift </div>
+												<div className="item">Cross-Platform mobile app development</div>
+												<div className="item">React Native</div>
 												<div className="item">UX/UI</div>
 												<div className="item">OS Environment: Mac</div>
 											</div>
