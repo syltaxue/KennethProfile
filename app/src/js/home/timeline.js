@@ -13,23 +13,23 @@ var Timeline = React.createClass({
 				</div>
 				<div>
 					<ul className="timeline">
-						<li className="timeline-inverted">
-							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
-							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">September 2016 - Present</div></div>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">September 2016 - Present</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">Reach Social Mobile App</h2>
 									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Cross-Platform App Developer</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Projects</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">School Project</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
 								</div>
 								<div className="timeline-body">
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Building a cross-platform app using React Native that provides the ability to do different class activities for students</div>
+												<div className="item">Building a cross-platform app from scratch for a start-up company using React Native that provides the ability to do different class activities for students</div>
 												<div className="item">Designing the UI/UX for the app</div>
 												<div className="item">Developing key features for the app, e.g. file upload/sharing, group conversation thread</div>
 												<div className="item">Initialize team work with other team members and make sure the product can be delivered on time</div>
@@ -48,32 +48,31 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li>
-							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
-							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">September 2016 - Present</div></div>
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">September 2016 - Present</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
 									<h2 className="timeline-title xs-font-larger">UBC LLFI Web Service</h2>
 									<div className="text-muted ui red tag labels xs-font-xsmall"><div className="ui label font-size-inherit">Full Stack Developer</div></div>
-									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Personal Projects</div></div>
+									<div className="text-muted ui tag labels timeline-title-type xs-font-xsmall"><div className="ui label font-size-inherit">Personal Project</div></div>
 									<div className="text-muted ui teal tag labels xs-display xs-font-xsmall"><div className="ui label">September 2016 - Present</div></div>
 								</div>
 								<div className="timeline-body">
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Building a  front-end web GUI for the LLFI tool following the GUI of desktop version using React</div>
-												<div className="item">Hosting the back-end server that executes scripts for front-end requests using NodeJS</div>
-												<div className="item">Building a simple database monitoring different user models using MongoDB</div>
+												<div className="item">Building a web application using React from scratch for a UBC research project LLFI</div>
+												<div className="item">Designed the architecture of the application in a modular way and following RESTful API standards</div>
+												<div className="item">Implementing the back-end server that executes scripts for front-end requests using NodeJS</div>
 											</div>
 										</div>
 										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
 											<div className="timeline-body-container-skillHeader">Technical Skills/Language:</div>
 											<div className="ui bulleted list">
 												<div className="item">ReactJS</div>
-												<div className="item">MongoDB</div>
 												<div className="item">NodeJS</div>
 												<div className="item">Html, Css, Javascript</div>
 												<div className="item">OS Environment: Windows</div>
@@ -83,10 +82,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li className="timeline-inverted">
-							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
-							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">July 2016 - August 2016</div></div>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">July 2016 - August 2016</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -119,10 +118,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li>
-							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
-							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">May 2015 - December 2015</div></div>
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">May 2015 - December 2015</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -156,10 +155,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li className="timeline-inverted">
-							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
-							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">August 2014 - May 2015</div></div>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">August 2014 - May 2015</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -172,7 +171,7 @@ var Timeline = React.createClass({
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Developed automated test scripts for nightly regression test to have the requirements of our products fully tested</div>
+												<div className="item">Developed automated test scripts for nightly regression tests to have the requirements of our products automatically tested</div>
 												<div className="item">Run and Reported nightly regression test results in a daily basis to report software bugs to the development team</div>
 												<div className="item">Developed scripting tools to automatically parse our test results with no manual efforts</div>
 												<div className="item">Learned programming language, Tcl, and scripting language, Perl, with minor help to be able to write automated test scripts independently</div>
@@ -191,10 +190,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li>
-							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
-							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide font-size-inherit">May 2014 - August 2014</div></div>
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">May 2014 - August 2014</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -227,10 +226,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li className="timeline-inverted">
-							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
-							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">July 2013 - September 2013</div></div>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">July 2013 - September 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -243,12 +242,10 @@ var Timeline = React.createClass({
 									<div className="row timeline-body-container">
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
-												<div className="item">Designed and programmed a server that receives commands from users and sends back results and commands to the client side</div>
-												<div className="item">Researched, learned, and applied techniques, such as epoll, select, multiple threads with locks, and the lock free circular queues, to deal with high concurrent cases</div>
+												<div className="item">Designed and programmed a simple server that receives commands from users and sends back results to the client side</div>
 												<div className="item">Designed a program that parsed the online log files to extract user information with encrypting and decrypting techniques</div>
 												<div className="item">Debugged and tested the programs using gcc, g++, gdb, and valgrind</div>
 												<div className="item">Learned basic and frequently used shell commands/script in Linux Centos system</div>
-												<div className="item">Improved coding style to make it more readable and easier to maintain</div>
 												<div className="item">Cooperated and communicated effectively with other team members; worked and learned independently under mineral guidance</div>
 											</div>
 										</div>
@@ -264,10 +261,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li>
-							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
-							<div className="timeline-date-right">
-								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label xs-hide font-size-inherit">March 2013 - May 2013</div></div>
+						<li className="timeline-inverted">
+							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
+							<div className="timeline-date-left">
+								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">March 2013 - May 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
@@ -283,7 +280,7 @@ var Timeline = React.createClass({
 												<div className="item">Designed a security camera android app that is able to control a remote RaspberryPi camera through Wi-Fi network as well as streaming the video from the camera</div>
 												<div className="item">Designed the UI of the app, analyzed the users habits about how they want to use the app, taking care of the relationship between each activity</div>
 												<div className="item">Implemented and designed the XML file of each activity page</div>
-												<div className="item">Initiated team activities, helped the team to allocate the workload, and ensured the team to be able to meet the deadline</div>
+												<div className="item">Initiated team activities, helped the team to allocate the workload, and ensured the delivery of the project</div>
 											</div>
 										</div>
 										<div className = "col-sm-5 xs-font-xsmall timeline-xs-padding">
@@ -298,10 +295,10 @@ var Timeline = React.createClass({
 								</div>
 							</div>
 						</li>
-						<li className="timeline-inverted">
-							<div className="timeline-badge warning"><i className="glyphicon glyphicon-arrow-right xs-hide"></i></div>
-							<div className="timeline-date-left">
-								<div className="timeline-date-left-text xs-hide"><div className="ui right pointing teal label xs-hide font-size-inherit">January 2013 - April 2013</div></div>
+						<li>
+							<div className="timeline-badge"><i className="glyphicon glyphicon-arrow-left xs-hide"></i></div>
+							<div className="timeline-date-right">
+								<div className="timeline-date-right-text xs-hide"><div className="ui teal tag label font-size-inherit">January 2013 - April 2013</div></div>
 							</div>
 							<div className="timeline-panel">
 								<div className="timeline-heading">
