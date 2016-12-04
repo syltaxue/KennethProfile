@@ -22,7 +22,7 @@ var Award = React.createClass({
 									<h3 className="white xs-font-medium">UBC Golden Key Membership - 2011</h3>
 									<p className="white xs-font-small">For students with a top 15% GPA at UBC</p>
 									<div className="ui divider white"></div>
-									<h3 className="white xs-font-medium">UBC Engineering Dean's Honor List 2011 - 2014</h3>
+									<h3 className="white xs-font-medium">UBC Engineering Dean's Honor List 2011 - 2016</h3>
 									<p className="white xs-font-small">For students with an annual GPA of at least A-</p>
 								</div>
 							</div>
