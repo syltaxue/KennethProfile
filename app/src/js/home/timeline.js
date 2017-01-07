@@ -65,7 +65,7 @@ var Timeline = React.createClass({
 										<div className = "col-sm-8">
 											<div className="ui bulleted list xs-font-xsmall">
 												<div className="item">Building a web application using React from scratch for a UBC research project LLFI</div>
-												<div className="item">Designed the architecture of the application in a modular way and following RESTful API standards</div>
+												<div className="item">Designed the architecture of the application in a modular way and followed RESTful API standards</div>
 												<div className="item">Implementing the back-end server that executes scripts for front-end requests using NodeJS</div>
 											</div>
 										</div>

@@ -38,7 +38,7 @@ var Aboutme = React.createClass({
 							<p><span className="glyphicon glyphicon-phone"></span> Phone: +1 (236) 777-6966</p>
 							<p><i className="fa fa-globe"></i> Linkedin: https://www.linkedin.com/in/kennethsong</p>
 							<p><i className="fa fa-globe"></i> Github: https://github.com/syltaxue</p>
-							<p><i className="fa fa-file-word-o"></i> My Resume: <a href="./Resume_YilunSong.docx" download>Resume</a></p>
+							<p><i className="fa fa-file-word-o"></i> My Resume: <a href="./Resume_YilunSong.pdf" download>Resume</a></p>
 							<p><i className="fa fa-file-pdf-o"></i> My Transcript: <a href="./Transcript_YilunSong.pdf" download>Transcript</a></p>
 							<p><i className="fa fa-graduation-cap"></i> GPA: 3.95/4.33</p>
 						</div>
