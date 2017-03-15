@@ -61,6 +61,7 @@
     "react-tap-event-plugin": "^0.2.2",
     "require-dot-file": "^0.4.0",
     "run-sequence": "^1.1.5",
+    "semantic-ui": "^2.2.9",
     "webpack": "^1.12.14",
     "yamljs": "^0.2.6"
   }
